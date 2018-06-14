@@ -1,14 +1,17 @@
+package Payroll;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package payrollsystem;
 
 /**
  *
- * @author macstudent
+ * @author hp
  */
-public class Parttime {
+public interface IDisplay {
+    
+    public  void displayMyData();
     
 }
