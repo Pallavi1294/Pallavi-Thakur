@@ -22,6 +22,7 @@ public abstract class Employee implements IDisplay {
 
 	}
         
+        
         public double calcEarnings() {
 
         return earnings;
@@ -59,6 +60,8 @@ public abstract class Employee implements IDisplay {
     public void setVehicle(Vehicle vehicle) {
         this.vehicle = vehicle;
     }
+
+    
         
 
 

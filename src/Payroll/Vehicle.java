@@ -17,21 +17,23 @@ private String producer;
 
 private String numplate;
 
-String type;
+private String model;
 
 private String color;
 
-    public String getType() {
-        return type;
+    public String getModel() {
+        return model;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }   
+    public void setModel(String model) {
+        this.model = model;
+    }
 
-public void Transmission(String Transmission) {
+    
 
-this.type = Transmission;
+public void Model(String Model) {
+
+this.model = Model;
 
 }
 

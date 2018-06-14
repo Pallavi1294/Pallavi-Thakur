@@ -16,12 +16,21 @@ public abstract class Parttime extends Employee implements IDisplay  {
     private double rate;
     private int hoursWorked;
     
-    Parttime p;
     
-    public double getRate(){
-        this.rate = rate;
-        return 1000;
+    
+    Parttime p;
+
+   
+    
+
+    public double getRate() {
+        return rate;
     }
+
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+    
     
     public int getHoursWorked() {
         return hoursWorked;
@@ -30,10 +39,20 @@ public abstract class Parttime extends Employee implements IDisplay  {
     public void setHoursWorked(int hoursWorked) {
         
         this.hoursWorked = hoursWorked;
-    }
-    
-    public void settype(){
-        
-     }
-    
-}
+    }}
+
+    /**
+     *
+     */
+    /*@Override
+    public void displayMyData(){
+("\nName of Employee :" + this.getName()
++" \n Birth Year :" + this.calcBrithYear() 
++ " \n Earnings :" + this.calcEarnings() 
++"\n Employee has a 'Car' \n Maker of Vehicle :" +this.getVehicle().getProducer()
++ "\n Vehicle Number :" + this.getVehicle().getNumPlate() 
++"\n Color of Vehcle :" + this.getVehicle().getColor() 
++ "\n Model Number :" + this.getVehicle().getModel());
+        }*/
+   
+

@@ -38,7 +38,7 @@ private String type2;
 
 public void displayMyData() {
     
-System.out.println(this.color2 + "  " + this.type);
+System.out.println(this.color2 + "  " + this.type2);
 
 	
 

@@ -8,31 +8,27 @@ public class FullTime extends Employee implements IDisplay {
 
 		
 
-private double salary;
+private double earnings;
 
 private double bonus;
 
 	
 
-public double calEarnings() {
-
-return salary + bonus;
-
-}
 
 
 
-public double getSalary() {
 
-return salary;
+public double getearnings() {
+
+return earnings;
 
 }
 
 
 
-public void setSalary(double salary) {
+public void setEarnings(double earnings) {
 
-this.salary = salary;
+this.earnings = earnings;
 
 }
 
@@ -50,26 +46,27 @@ public void setBonus(double bonus) {
 
 this.bonus = bonus;
 }
+public double calTotalSalary() {
+
+return earnings + bonus;
+
+}
+
 
 
 
 @Override
 public void displayMyData() {
 
-System.out.println(this.getName() 
+System.out.println("\n Full Time Emloyee" +"\n Name is:" +this.getName() 
+        +"\n Birth Year: " +this.calcBrithYear()
+        +"\n Total Earnings" +this.calTotalSalary()
+        +"\n Employee has a 'Car' \n Vehicle details :" +this.getVehicle().getProducer()
++ "\n Vehicle Number :" + this.getVehicle().getNumPlate() 
++"\n Color of Vehcle :" + this.getVehicle().getColor() 
++ "\n Model Number :" + this.getVehicle().getModel());
 
-+ ""
-
-+ ""
-
-+ "");
-
-		
-
-}
-
-}
- 
+}}
     
     
 
