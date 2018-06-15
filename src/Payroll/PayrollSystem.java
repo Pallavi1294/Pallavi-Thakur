@@ -109,8 +109,8 @@ public class PayrollSystem {
     com1.setAge(25);
     com1.calcBrithYear();
     com1.setRate(30);
-    com1.setHoursWorked(35);
-    com1.setCommissionPercent(30);
+    com1.setHoursWorked(10);
+    com1.setCommissionPercent(20);
     com1.displayMyData();
     
    
